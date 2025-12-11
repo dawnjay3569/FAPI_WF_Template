@@ -1,0 +1,11 @@
+pandas~=2.2.3
+python-dotenv~=1.1.1
+elasticsearch~=9.0.2
+oracledb~=3.2.0
+SQLAlchemy~=2.0.41
+PyQvd~=2.2.1
+redis~=6.2.0
+prometheus_client~=0.22.1
+selenium~=4.34.0
+requests~=2.32.4
+pyarrow~=20.0.0
