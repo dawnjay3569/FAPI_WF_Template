@@ -21,4 +21,9 @@ def main():
 if __name__ == "__main__":
     logger.info("Executing Python script.")
     main()
+    file_name = os.getenv("RPA_FILE_NAME")
+    logger.info(f"File path recieved: {file_name}")
+    if file_name:
+        with open(os.path.join("app","data",file_name),"r") as f:
+            logger.info(f.readlines())
     logger.info("Python script successfully executed.")
